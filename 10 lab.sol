@@ -76,7 +76,7 @@ contract DEX {
     IERC20 public token;
 
     constructor() {
-        token = new lab();
+        token = new SLTN();
     }
 
     function buy() payable public {
