@@ -15,9 +15,9 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-contract SLNT is IERC20 {
+contract SLTN is IERC20 {
 
-    string public constant name = "SLTN";
+    string public constant name = "lab11";
     string public constant symbol = "SLTN";
     uint8 public constant decimals = 2;
 
